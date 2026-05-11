@@ -11,3 +11,4 @@ rnn_stocks | recurrent neural network (RNN) | NVIDIA stock price
 lstm_stocks | long short-term memory (LSTM) RNN | NVIDIA stock price
 PINN/Burgers | physics-informed NN (PINN) | Burgers' equation
 PINN/Schrodinger | PINN | Schrodinger equation
+PINN/Burgers_RK | PINN | Burgers' equation (discrete time)
