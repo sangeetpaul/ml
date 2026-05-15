@@ -6,7 +6,7 @@ PINNs solving various non-linear partial differential equations:
 goal $\downarrow$ | continuous-time | discrete-time
 -- | -- | --
 solution | [Burgers](/PINN/Burgers.ipynb), [Schrodinger](/PINN/Schrodinger.ipynb) | [Burgers](/PINN/Burgers_RK.ipynb), [Allen-Cahn](/PINN/AllenCahn.ipynb)
-discovery | [Navier-Stokes](/PINN/NavierStokes.ipynb) | 
+discovery | [Navier-Stokes](/PINN/NavierStokes.ipynb) | [Korteweg–de Vries](/PINN/KdV.ipynb)
 
 ## Other notebooks
 name | architecture | dataset
