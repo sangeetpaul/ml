@@ -18,7 +18,7 @@ def permutation_feature_importance(model: Model, X, y, n_perm=100, return_diff=F
             np.random.shuffle(X_i[:, i])
             loss_perm[i,j] = get_loss(X_i)
     if return_diff:
-        loss_perm - loss_orig
+        return loss_perm - loss_orig
     return loss_perm / loss_orig
 
 def leave_one_feature_out_importance(
@@ -42,5 +42,5 @@ def leave_one_feature_out_importance(
         )
         loss_perm[i] = get_loss(model_i, np.delete(X_test, i, axis=1))
     if return_diff:
-        loss_perm - loss_orig
+        return loss_perm - loss_orig
     return loss_perm / loss_orig
